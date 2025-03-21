@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: url('../images/background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .background-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #00ffcc;
+  }
+  
+  .intro {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .intro h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .intro p {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+  }
+  
+  .btn {
+    background-color: #00ffcc;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #00bfa6;
+  }
+  
+  footer {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: #ccc;
+  }
+  
+  form input, form textarea {
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #00ffcc;
+    color: #000;
+  }
+  
